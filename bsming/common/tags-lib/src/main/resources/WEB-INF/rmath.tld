@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+    <!-- The version number of this tag library -->
+    <tlibversion>1.0</tlibversion>
+
+    <!-- The JSP specification version required to function -->
+    <jspversion>2.1</jspversion>
+
+    <!-- The short name of this tag library -->
+    <shortname>rmath</shortname>
+
+    <!-- Public URI that uniquely identifies this version of the tag library -->
+    <uri>http://www.gemantic.com/taglibs/rmath</uri>
+
+    <!-- General information about this tag library -->
+    <info>
+          math function
+    </info>
+    
+    <tag>
+        <name>abs</name>
+        <tag-class>com.gemantic.commons.tags.RMath</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <name>value</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    
+</taglib>
